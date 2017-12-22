@@ -22,6 +22,6 @@ if(course_response.status_code == 200):
 
 while item_id < item_id_max:
     comment = {'content': '老师讲的很好', 'star_num': '5','item_id':item_id,'course_id': '75827'}
-    comment_response = requests_session.post(url=comment_url,data=comment,headers=headers,timeout=1)
+    comment_response = requests_session.post(url=comment_url,data=comment,headers=headers,timeout=2)
     print('正在评论',item_id)
     item_id = item_id + 1
