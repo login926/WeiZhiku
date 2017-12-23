@@ -1,8 +1,8 @@
 import requests
 from random import choice
 
-username = '13063628071'
-password = 'zhangWZK926'
+username = '你的账号'
+password = '你的密码'
 login_url = 'http://58.193.0.104/?q=custom_user_login'
 course_url= 'http://58.193.0.104/?q=items/student/study/75827'
 comment_url= 'http://58.193.0.104/?q=item/comments/save'
